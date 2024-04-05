@@ -62,13 +62,13 @@ that are registered in the application.
 
   <info>php %command.full_name%</info>
 
-Use <info>--workflow-name</info> option to display the definition of a specific workflow:
+Use <info>workflow-name</info> argument to display the definition of a specific workflow:
 
-  <info>php %command.full_name% --workflow-name=<workflow-name></info>
+  <info>php %command.full_name% <workflow-name></info>
 
 HELP
             )
-            ->addUsage('--workflow-name=<workflow-name>');
+            ->addUsage(' <workflow-name>');
     }
 
     /** @noinspection PhpMissingParentCallCommonInspection */
